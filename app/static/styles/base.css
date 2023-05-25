@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    font-size: large;
+}
+
+article:nth-child(odd) {
+    background-color: #e6f2ff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+ul.pricelist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+
+.pricelist li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+.contact-list li {
+    margin: 10px;
+    flex: 0 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-list li h2 {
+    margin-top: 0;
+}
+
+.contact-list li p {
+    margin-bottom: 5px;
+}
